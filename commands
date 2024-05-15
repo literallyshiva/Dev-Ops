@@ -1,0 +1,7 @@
+--commands used
+
+docker build -t my-details-website .
+docker run -d -p 8080:80 my-details-website
+docker ps
+docker exec -ti 779ba03abe6b sh
+curl localhost:80
